@@ -1,0 +1,10 @@
+﻿Build started 2015-05-28 15:47:02.
+     1>Project "C:\C_Allegro_Game_Empty\Asteroids_C\Asteroids_C\Asteroids_C.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\C_Allegro_Game_Empty\Asteroids_C\Debug\Asteroids_C.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\allegro4\lib "allegro-4.4.2-monolith-md-debug.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\C_Allegro_Game_Empty\Asteroids_C\Debug\Asteroids_C.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\C_Allegro_Game_Empty\Asteroids_C\Debug\Asteroids_C.lib" /MACHINE:X86 Debug\main.obj
+         Asteroids_C.vcxproj -> C:\C_Allegro_Game_Empty\Asteroids_C\Debug\Asteroids_C.exe
+     1>Done Building Project "C:\C_Allegro_Game_Empty\Asteroids_C\Asteroids_C\Asteroids_C.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.37

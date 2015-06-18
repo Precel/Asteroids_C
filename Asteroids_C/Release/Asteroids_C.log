@@ -1,0 +1,24 @@
+﻿Build started 2015-06-13 22:18:03.
+     1>Project "C:\C_Allegro_Game_Empty\Asteroids_C\Asteroids_C\Asteroids_C.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\allegro\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt config.c highscores.c main.c
+         config.c
+         highscores.c
+     1>highscores.c(16): warning C4047: 'function' : 'FILE **' differs in levels of indirection from 'FILE *'
+     1>highscores.c(16): warning C4024: 'fopen_s' : different types for formal and actual parameter 1
+     1>highscores.c(62): warning C4101: 'name' : unreferenced local variable
+         main.c
+     1>main.c(33): warning C4013: 'al_init_ttf_addon' undefined; assuming extern returning int
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\C_Allegro_Game_Empty\Asteroids_C\Release\Asteroids_C.exe" /NOLOGO /LIBPATH:C:\allegro\lib "allegro-5.0.10-monolith-mt.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\C_Allegro_Game_Empty\Asteroids_C\Release\Asteroids_C.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\C_Allegro_Game_Empty\Asteroids_C\Release\Asteroids_C.lib" /MACHINE:X86 /SAFESEH Release\config.obj
+         Release\highscores.obj
+         Release\linked_list.obj
+         Release\main.obj
+         Generating code
+         Finished generating code
+         Asteroids_C.vcxproj -> C:\C_Allegro_Game_Empty\Asteroids_C\Release\Asteroids_C.exe
+     1>Done Building Project "C:\C_Allegro_Game_Empty\Asteroids_C\Asteroids_C\Asteroids_C.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15
